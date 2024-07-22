@@ -1,0 +1,437 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+body.lil-wayne-bg {
+    background-image: url('https://www.vibe.com/wp-content/uploads/2018/10/lil-wayne-tha-carter-series-ranking-1538690526.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header.lil-wayne-header {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #007BFF; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+header nav ul li a:hover {
+    background-color: #0056b3; 
+    color: #fff;
+}
+
+header nav ul li.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+header nav ul li .dropbtn {
+    cursor: pointer;
+}
+
+header nav ul li .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+header nav ul li .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+header nav ul li .dropdown-content a img {
+    width: 100px;
+    height: auto;
+}
+
+header nav ul li .dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+header nav ul li.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.Lilwayne-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.Lilwayne-container a {
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.Lilwayne-container img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.Lilwayne-container a:hover img {
+    transform: scale(1.1);
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    max-width: 800px;
+    color: orangered;
+    background-color: #fff;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.white-background {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.gif-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Drake */
+body.drake-bg {
+    background-image: url('https://cosignmag.com/wp-content/uploads/2019/02/drake-albums-social.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header.drake-header {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #007BFF; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+header nav ul li a:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+header nav ul li.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+header nav ul li .dropbtn {
+    cursor: pointer;
+}
+
+header nav ul li .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+header nav ul li .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+header nav ul li .dropdown-content a img {
+    width: 100px;
+    height: auto;
+}
+
+header nav ul li .dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+header nav ul li.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.Drake-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.Drake-container a {
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.Drake-container img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.Drake-container a:hover img {
+    transform: scale(1.1);
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    max-width: 800px;
+    color: orangered;
+    background-color: #fff;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.white-background {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.gif-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+/*Nicki*/
+body.nicki-bg {
+    background-image: url('https://i.scdn.co/image/ab67616d0000b27352c34bbc779284b0d820d8ce');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header.nicki-header {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #007BFF; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+header nav ul li a:hover {
+    background-color: #0056b3;
+    color: #fff;
+}
+
+header nav ul li.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+header nav ul li .dropbtn {
+    cursor: pointer;
+}
+
+header nav ul li .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+header nav ul li .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+header nav ul li .dropdown-content a img {
+    width: 100px;
+    height: auto;
+}
+
+header nav ul li .dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+header nav ul li.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.Nicki-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.Nicki-container a {
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.Nicki-container img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.Nicki-container a:hover img {
+    transform: scale(1.1);
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    max-width: 800px;
+    color: orangered;
+    background-color: #fff;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.white-background {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.gif-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
